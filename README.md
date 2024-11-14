@@ -24,17 +24,17 @@ MQTT Protocol 을 이용한 꽃가루농도 조회 서비스
 꽃가루 농도에 예민한 사람들은 이러한 정보 부족으로 인해 외출 시 불편함을 겪곤 합니다. 이 서비스는 특히 알레르기 환자나 꽃가루 민감자를 위한 것으로, 간단한 조회만으로도 기온 및 날씨 정보를 조회할 수 있는 것 처럼 꽃가루 농도 지수를 제공하여 외출 시 미리 대비할 수 있도록 돕고자 개발되었습니다.
 
 ## 💿 프로젝트 아키텍처
-![MQTT Protocol Architecture](https://github.com/user-attachments/assets/0761fcdc-9304-4619-9f48-2430ad16f8a8)
+![MQTT Protocol Architecture](https://github.com/user-attachments/assets/9d5949c0-8dc1-4bd0-ab17-11a4cc87b368)
 
 ## 📱 기능 설명
-![image](https://github.com/user-attachments/assets/eff214c8-a666-4a2c-8284-75600dea8add) <br>
+![image](https://github.com/user-attachments/assets/58abfe18-bb9a-46b9-8ff7-731c89b474cf) <br>
 성공적으로 DB 정보가 전달이 되면 구현된 HTML 홈페이지가 인코딩되어 화면에 출력 <br>
 
-![image](https://github.com/user-attachments/assets/14b13dfd-dc5c-438e-9bea-ca56f75ccf63) <br>
+![image](https://github.com/user-attachments/assets/da9f5bd9-600f-4ce8-b0a5-347d5b2f834c) <br>
 농도 값은 해당 이미지 처럼 0~2 형태로 출력 <br>
 
-![image](https://github.com/user-attachments/assets/86cc4ebe-1ba6-4cc4-8227-6221506204b7) <br>
+![image](https://github.com/user-attachments/assets/3ea16916-0255-4a5b-b621-ec5391fb0965) <br>
 주의할점은 공공데이터포털에서 현재시간 기준에서 최근 1일간의 자료만 제공하기에 그 범위를 넘어선 날짜의 데이터를 받을 경우 Error 발생 <br>
 
-![image](https://github.com/user-attachments/assets/5e460b66-bf5e-4d91-9169-8bb14c5f67e6) <br>
+![image](https://github.com/user-attachments/assets/85c81dbc-f6de-442e-a828-9b89afb206cb) <br>
 N/A Error.
